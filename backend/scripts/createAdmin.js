@@ -11,9 +11,9 @@ const createAdmin = async () => {
     console.log('Connected to MongoDB');
     
     const adminData = {
-      name: 'Sagar',           // Change this to your name
-      email: 'sagar@gmail.com',     // Change this to your email
-      password: 'Admin@123',        // Change this to your preferred password
+      name: 'username',           // Change this to your name
+      email: 'youremail@gmail.com',     // Change this to your email
+      password: 'yourpassword',        // Change this to your preferred password
       role: 'admin',
       phone: '9876543210',         // Change this to your phone number
       active: true,
